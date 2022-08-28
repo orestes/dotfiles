@@ -6,4 +6,4 @@ plugins=(git zsh-navigation-tools docker yarn themes)
 . $DOTFILES/nvm.sh
 . $DOTFILES/homebrew.sh
 . $DOTFILES/prompt.sh
-. $$DOTFILES/jetbrains.sh
+. $DOTFILES/jetbrains.sh
