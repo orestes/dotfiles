@@ -1,9 +1,5 @@
-DOTFILES=$HOME/.dotfiles
+plugins=(git zsh-navigation-tools)
 
-plugins=(git zsh-navigation-tools docker yarn themes)
-
-. $DOTFILES/aliases.sh
-. $DOTFILES/nvm.sh
-. $DOTFILES/homebrew.sh
-. $DOTFILES/prompt.sh
-. $DOTFILES/jetbrains.sh
+# Spaceship prompt config
+SPACESHIP_PROMPT_ASYNC=false # Avoid text flashes, hold the prompt instead
+ZSH_THEME="spaceship"
